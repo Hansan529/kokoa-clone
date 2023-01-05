@@ -24,9 +24,9 @@ function onGeoOK(position) {
 
 //My API Key = 151d10019e711eb9272dd68ad6d76555
 
-function onGeoError() {
-  alert("당신의 위치를 찾을 수 없습니다.");
-}
+// function onGeoError() {
+//   alert("당신의 위치를 찾을 수 없습니다.");
+// }
 
 navigator.geolocation.getCurrentPosition(onGeoOK, onGeoError);
 //getCurrentPosition(1,2) 1:모두가 만족할때 실행할 함수 2: 오류 발생시 실행될 함수
