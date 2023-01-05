@@ -1,3 +1,3 @@
 # kokoa-clone
 
-main branch
+[index](https://hansan529.github.io/kokoa-clone/)
