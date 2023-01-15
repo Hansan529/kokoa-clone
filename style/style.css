@@ -42,7 +42,7 @@ li {
 .main-screen {
   padding: 90px var(--horizontal-space) 70px var(--horizontal-space);
   margin-top: 30px;
-  width: 95%;
+  max-width: 1920px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -73,134 +73,48 @@ li {
     display: none;
   }
 }
-/** 모바일: small */
-@media screen and (min-width: 300px) and (max-width: 359px) {
+/** 모바일*/
+@media screen and (min-width: 300px) and (max-width: 500px) {
   body,
   .status-bar,
   .screen-header,
   .nav,
   .chats-nav {
     width: 300px;
+    margin: 0 auto;
   }
 }
-/** 모바일 medium */
-@media screen and (min-width: 360px) and (max-width: 399px) {
+/** 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   body,
   .status-bar,
   .screen-header,
   .nav,
   .chats-nav {
-    width: 399px;
-  }
-}
-/** 모바일 large */
-@media screen and (min-width: 400px) and (max-width: 479px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 400px;
-  }
-}
-/** 모바일 large */
-@media screen and (min-width: 480px) and (max-width: 599px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 480px;
-  }
-}
-/** 태블릿 small */
-@media screen and (min-width: 600px) and (max-width: 719px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 600px;
-  }
-}
-/** 태블릿 large */
-@media screen and (min-width: 720px) and (max-width: 839px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 720px;
-  }
-}
-@media screen and (min-width: 840px) and (max-width: 959px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 840px;
-  }
-}
-@media screen and (min-width: 960px) and (max-width: 1023px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 960px;
+    width: 768px;
+    margin: 0 auto;
   }
 }
 /** 데스크톱 */
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 1024px;
-  }
-}
-@media screen and (min-width: 1280px) and (max-width: 1439px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 1280px;
+@media screen and (min-width: 1280px) {
+  .not__ppi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 20px;
   }
   .status-bar,
   .screen-header,
-  .nav {
-    width: 1280px;
-  }
-}
-@media screen and (min-width: 1440px) and (max-width: 1599px) {
-  body,
-  .status-bar,
-  .screen-header,
   .nav,
+  .main-screen,
   .chats-nav {
-    width: 1440px;
-  }
-}
-@media screen and (min-width: 1600px) and (max-width: 1919px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 1600px;
-  }
-}
-/** 1920px 이상 */
-@media screen and (min-width: 1920px) {
-  body,
-  .status-bar,
-  .screen-header,
-  .nav,
-  .chats-nav {
-    width: 1920px;
+    display: none;
   }
 }
 /* @media screen and (min-width: 701px) {
