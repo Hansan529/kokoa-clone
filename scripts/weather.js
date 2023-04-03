@@ -1,5 +1,3 @@
-const API_KEY = "151d10019e711eb9272dd68ad6d76555";
-
 function onGeoOK(position) {
   const lat = position.coords.latitude;
   const long = position.coords.longitude;
@@ -22,7 +20,6 @@ function onGeoOK(position) {
 //https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 //https://api.openweathermap.org/data/2.5/weather?lat=37.627844242863866&lon=126.68118142114628&appid=151d10019e711eb9272dd68ad6d76555
 
-//My API Key = 151d10019e711eb9272dd68ad6d76555
 
 // function onGeoError() {
 //   alert("당신의 위치를 찾을 수 없습니다.");
