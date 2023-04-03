@@ -1,3 +1,8 @@
+import dotenv from "dotenv";
+dotenv.config();
+
+API_KEY = process.env.WEATHER_KEY;
+
 const clock = document.querySelector('#status-bar__time');
 
 const getClock = () => {
